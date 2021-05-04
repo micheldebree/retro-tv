@@ -18,3 +18,14 @@ You might want to tweak things for other video's (especially the framerate).
 ## Usage
 
     ./retro-tv.sh <input video file>
+
+An intermediary `tmp.mp4` file is created. It's safe to delete this.
+
+## Capturing video from Vice
+
+Use the following settings for best results:
+
+- Video driver: FFMPEG
+- Format: avi
+- Video codec: FFV1
+- Audio codec: PCM uncompressed
